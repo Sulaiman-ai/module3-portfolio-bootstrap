@@ -1,0 +1,18 @@
+/* hero */
+.hero-banner {
+    padding-top: 7vh;
+    height: 50vh;
+    width: 100vw;
+    background-image: url("../images/laptop-tech-banner02.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .pfp {
+    display: block;
+    margin:auto;
+    aspect-ratio: 1;
+    height: 35vh;
+    object-fit: cover;
+    border-radius: 50%;
+  }
