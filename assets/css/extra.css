@@ -51,9 +51,15 @@ p {
     background-color: black;
   }
 
+.skills {
+    background-color: navy;
+}
+
   /* .thumbnail {
     aspect-ratio: 2;
   } */
+
+
 
   .thumbnail.first {
     width: 80vw;
