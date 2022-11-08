@@ -22,3 +22,11 @@
     object-fit: cover;
     border-radius: 50%;
   }
+
+  .thumbnail {
+    aspect-ratio: 2;
+  }
+
+  .thumbnail.first {
+    width: 80vw;
+  }
