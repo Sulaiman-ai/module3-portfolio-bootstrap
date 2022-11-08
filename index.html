@@ -15,8 +15,8 @@
   <!-- main logo / nav -->
   <header>
     <!-- <h1>Sulaiman Amjad</h1> -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light flex-row justify-content-between">
-      <a class="navbar-brand" href="#">Sulaiman Amjad</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light flex-row justify-content-between p-5">
+      <h1 class="navbar-brand font-weight-bold h1">Sulaiman Amjad</h1>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active"><a class="nav-link" href="#about">About</a></li>
@@ -28,7 +28,7 @@
   </header>
 
   <!-- hero banner -->
-  <section class="hero-banner">
+  <section class="hero-banner jumbotron mb-0">
     <img src="./assets/images/profile-pic.jpg" class="pfp">
     <!-- <h2>Software Engineer</h2> -->
   </section>
@@ -43,45 +43,43 @@
     <!-- portfolio container -->
     <section class="page-section p-3 pl-5" id="work">
       <h2 class="mb-4">Projects</h2>
-      <div class="projects">
-        <div class="project">
-          <!-- <h3>Path Finder</h3> -->
+      <div class="projects row">
+        <div class="project card col">
           <a href="https://codepen.io/sulaiman-ai/full/vYyJGvV">
-            <figure>
-              <figcaption><h3 class="h3">Path creation animator</h3></figcaption>
-              <img class="thumbnail first" src="./assets/images/path-animator-thumbnail.PNG">
-              
-            </figure>
-          </a>
+          <img class="thumbnail card-img-top" src="./assets/images/path-animator-thumbnail.PNG">
+        </a>
+          <div class="card-body">
+            <h5 class="card-title">Path creation animator</h5>
+            <p class="card-text">Software to animate the calculation of random paths</p>
         </div>
-        <div class="project">
-          <!-- <h3>Sudo2+</h3> -->
+        </div>
+        <div class="project card col">
           <a href="https://replit.com/@sulaimanamjad/Instagram-Clone">
-            <figure>
-              <figcaption><h3>Instagram Clone</h3></figcaption>
-              <img class="thumbnail w-75" src="./assets/images/instagram-clone-thumbnail.PNG">
-              
-            </figure>
+            <img class="thumbnail card-img-top" src="./assets/images/instagram-clone-thumbnail.PNG">
           </a>
+            <div class="card-body">
+              <h5 class="card-title">Instagram Clone</h5>
+              <p class="card-text">Instagram Clone</p>
+          </div>
         </div>
-        <div class="project">
-          <!-- <h3>Calculator</h3> -->
+        <div class="project card col">
           <a href="https://codepen.io/sulaiman-ai/full/JjJmeJj">
-            <figure>
-              <figcaption><h3>Basic Calculator</h3></figcaption>
-              <img class="thumbnail w-75" src="./assets/images/calculator-thumbnail.PNG">
-              
-            </figure>
+            <img class="thumbnail card-img-top" src="./assets/images/calculator-thumbnail.PNG">
           </a>
+            <div class="card-body">
+              <h5 class="card-title">Basic Calculator</h5>
+              <p class="card-text">Basic frontend calculator for learning purposes</p>
+          </div>
+          
         </div>
       </div>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact p-3 pl-5 bg-dark" id="contact">
+    <section class="page-section contact p-3 pl-5" id="contact">
       <h2 class="mb-4 text-white">Contact Me</h2>
-      <p class="text-white">Email: sulaiman.amjad@gmail.com</p>
-      <p class="text-white">GitHub: <span class="link"><a href="https://github.com/Sulaiman-ai" class="link">github.com/Sulaiman-ai</a></span></p>
+      <p class="mb-0 text-white">Email: sulaiman.amjad@gmail.com</p>
+      <p class="text-white">GitHub: <span class="link"><a href="https://github.com/Sulaiman-ai" class="link text-white">github.com/Sulaiman-ai</a></span></p>
     </section>
   </main>
 </body>
