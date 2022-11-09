@@ -24,7 +24,7 @@ N/A
 
 Access website at https://sulaiman-ai.github.io/module3-portfolio-bootstrap/
 
-![alt text](./assets/images/screenshot.png)
+![alt text](./assets/images/screenshot.PNG)
 
 ## License
 
