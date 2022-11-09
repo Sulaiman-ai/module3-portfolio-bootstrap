@@ -70,3 +70,7 @@ p {
     height: 15vw;
     object-fit: cover;
 }
+
+.btn:hover {
+    box-shadow: 5px 5px;
+}
